@@ -12,7 +12,7 @@
 <!-- nav section -->
 <body>
 
-    <nav class="navbar  sticky-top navbar-expand-lg navbar-dark bg-dark navbar-container">  
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark navbar-container">  
       <a class="navbar-brand" href="#">fvjr</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -53,23 +53,37 @@
     <div class = "avatar-image-div">
       <img id = "avatar" src="./Assets/Screenshots/avatar.jpg" class="img-fluid rounded-circle" alt="image of my avatar, a racoon on a computer">
     </div>
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
     </div>
         <!-- homeworks/projects/deployed -->
     <div class="col-6 screenshots-column">
       <!-- <h3>Click each photo to go to the deployed application.</h3> -->
       <div class = "work-div">
         <h4>Film-Bites!</h4>
-      <a href=" https://mbarrientos1129.github.io/mighty-mustangs-Project-1-Group/" target="_blank"> <img src="./Assets/Screenshots/project-one-screenshot.png" class="img-thumbnail" alt="screenshot of a website that assists with selecting movies and recipes"></a><p>Here's my first project - "Film-Bites!". My project team developed a website to help users plan out a fun movie and dinner night. Check it out if you ever had a hard time deciding on a movie to watch or need a tasty new recipe to try out! Click the photo to go to the deployed site.</p>
+      <a title = "Click here to go to deployed site" href=" https://mbarrientos1129.github.io/mighty-mustangs-Project-1-Group/" target="_blank"> <img src="./Assets/Screenshots/project-one-screenshot.png" class="img-thumbnail" alt="screenshot of a website that assists with selecting movies and recipes"></a><p>Here's my first project - "Film-Bites!". My project team developed a website to help users plan out a fun movie and dinner night. Check it out if you ever had a hard time deciding on a movie to watch or need a tasty new recipe to try out! Click the photo to go to the deployed site.</p>
       <a href=" https://github.com/mbarrientos1129/mighty-mustangs-Project-1-Group" target="_blank">Click here for the Git repo</a>
     </div>
       <div class = "work-div">
       <h4>Weather Tracker</h4>
-      <a href=" https://fvjr.github.io/HW6-Weather_Dashboard/" target="_blank"> <img src="./Assets/Screenshots/weather-dashboard-screenshot.png" class="img-thumbnail" alt="screenshot of an application used to search weather conditions"></a><p>Here's a website that I developed that will allow a user to check a city's weather conditions. Try searching your current city! Click the photo to go to the deployed site.</p>
+      <a title = "Click here to go to deployed site" href=" https://fvjr.github.io/HW6-Weather_Dashboard/" target="_blank"> <img src="./Assets/Screenshots/weather-dashboard-screenshot.png" class="img-thumbnail" alt="screenshot of an application used to search weather conditions"></a><p>Here's a website that I developed that will allow a user to check a city's weather conditions. Try searching your current city! Click the photo to go to the deployed site.</p>
       <a href="https://github.com/fvjr/HW6-Weather_Dashboard" target="_blank">Click here for the Git repo</a>
     </div>
     <div class = "work-div">
       <h4 class = "project-title">Timed Quiz</h4>
-      <a href="https://fvjr.github.io/HW4-Quiz/" target="_blank"> <img src="./Assets/Screenshots/coding-quiz-screenshot.png" class="img-thumbnail" alt="screenshot of a timed quiz application"></a><p>Here's one of my earlier homeworks. I created a timed quiz that tests a user's knowledge on JavaScript. I have a high score of 57, can you beat it? Click the photo to go to the deployed site.</p>
+      <a href="https://fvjr.github.io/HW4-Quiz/" title = "Click here to go to deployed site" target="_blank"> <img src="./Assets/Screenshots/coding-quiz-screenshot.png" class="img-thumbnail" alt="screenshot of a timed quiz application"></a><p>Here's one of my earlier homeworks. I created a timed quiz that tests a user's knowledge on JavaScript. I have a high score of 57, can you beat it? Click the photo to go to the deployed site.</p>
       <a href="https://github.com/fvjr/HW4-Quiz" target="_blank">Click here for the Git repo</a>
     </div>
     </div>
@@ -78,5 +92,7 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="Assets/script.js"></script>
 </body>
 </html>
