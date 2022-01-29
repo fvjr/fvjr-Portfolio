@@ -9,84 +9,90 @@
 /* https://coolors.co/palette/131515-2b2c28-339989-7de2d1-fffafb */
 /* pallete */
 
-body {
+body{
   background-color: var(--dark);
 }
 
-.navbar-container{
-height: 100px; 
+.nav-container-main {
+  background-color: var(--dark);
+  margin-bottom: 15%;
+  color:white;
+  text-shadow:10px 10px 10px black;
 }
 
-.container {
-  background-color: var(--primary);
-  box-shadow: 50px 100px 100px 100px black;
-  border-radius: 25px;
-  border:15px groove black;
+.about-me-container {
+  margin-top: 10%;
+  background-color: var(--dark);
+  color: white;
+  font-size: 24px;
 }
 
-.nav-item {
-  color:var(--lightest);
+#my-picture {
+  border-radius: 55%;
+  /* margin-top:25%;*/
+  margin-bottom: 25px; 
+  border: 5px ridge var(--charcoal);
+  box-shadow: 15px 15px 15px black;
 }
 
-/* .screenshots-column {
-  border-left: 6px solid black;
-} */
-
-#avatar{
-height: 350px;
-}
-
-.screenshots-column{
-  border-left: ridge black 5px;
-}
-
-.screenshots-column p, h3, a{
- color:var(--lightest); 
- font-size: 20px;
- text-align: justify; 
- text-shadow: 4px 4px 4px var(--dark);
- line-height: 1.4;
-}
-
-.screenshots-column a{
-  text-align: justify;
-}
-
-.screenshots-column h3{
-  text-align: center; 
-}
-
-.screenshots-column h4{
-  text-align: center; 
-  font-size: 26px;
-  text-decoration:underline var(--dark);
-  text-shadow: 1.5px 1.5px 1.5px var(--dark);
-}
-
-.screenshots-column img{
-box-shadow: 10px 10px 10px var(--dark);
-margin-bottom: 15px;
-border-radius:35px;
-}
-
-.bio{
-  text-shadow: 4px 4px 4px var(--dark);
-  color:var(--lightest); 
-  font-size: 20px;
-  text-align: left; 
-}
-
-#bio-div{
-  background-color: var(--charcoal);
-  align-items: center;
-}
-
-.work-div{
-  border-bottom: 10px solid var(--shadow);
+#bio {
+  /* margin-top:25px;*/
+  margin-bottom: 25px;
+  color: white;
   text-align: center;
-  padding-bottom: 15px;
+  font-size: 24px;
+  text-shadow:10px 10px 10px black;
 }
 
-.avatar-image-div{
-  align-items: center;
+.work-main-container{
+  margin-top: 5%;
+}
+
+#my-work-header{
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  font-size: 30px;
+  text-shadow:10px 10px 10px black;
+}
+
+.img-work-container{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* padding-left: 2%; */
+  margin-top: 3%;
+}
+
+.work-container{
+  /* border: 5px ridge var(--primary); */
+  margin-bottom: 2%;
+}
+
+
+.text-work-container{
+  color:white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* padding-left: 2%; */
+  margin-top: 3%;
+}
+
+.work-container img{
+  border-radius: 5%;
+  border: 5px ridge var(--charcoal);
+  box-shadow: 15px 15px 15px black;
+
+}
+
+.project-title {
+  text-align: center;
+  text-decoration: underline;
+  text-shadow:10px 10px 10px black;
+}
+
+.project-text {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-shadow:10px 10px 10px black;
 }
